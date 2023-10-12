@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
           <Nav />
         </header>
         <main>{children}</main>
-
         <footer>
           <ul className="footer-items">
             <li>

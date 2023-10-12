@@ -12,61 +12,64 @@ export default function Menu() {
         <h1 >Our Menu</h1>
       </div>
       <div className="main-menu section">
-        <h2>Main Menu</h2>
-        <div className="menu-item">
-          <h2 className="title">Hamburger</h2>
-          <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, velit! Facilis odio delectus, architecto, obcaecati ut labore nostrum magni incidunt minima modi dolorum, alias libero rem perferendis a distinctio harum.</p>
-        </div>
-        <div className="menu-item">
-          <h2 className="title">[Food Title]</h2>
-          <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
-        </div>
+        <div className="menu-box">
+          <h1>Main Menu</h1>
+          <div className="menu-item">
+            <h2 className="title">Hamburger</h2>
+            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, velit! Facilis odio delectus, architecto, obcaecati ut labore nostrum magni incidunt minima modi dolorum, alias libero rem perferendis a distinctio harum.</p>
+          </div>
+          <div className="menu-item">
+            <h2 className="title">[Food Title]</h2>
+            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
+          </div>
 
-        <div className="menu-item">
-          <h2 className="title">[Food Title]</h2>
-          <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
-        </div>
-        <div className="menu-item">
-          <h2 className="title">[Food Title]</h2>
-          <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
-        </div>
-        <div className="menu-item">
-          <h2 className="title">[Food Title]</h2>
-          <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
-        </div>
-        <div className="menu-item">
-          <h2 className="title">[Food Title]</h2>
-          <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
-        </div>
-        <div className="menu-item">
-          <h2 className="title">[Food Title]</h2>
-          <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
-        </div>
-        <div className="menu-item">
-          <h2 className="title">[Food Title]</h2>
-          <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
+          <div className="menu-item">
+            <h2 className="title">[Food Title]</h2>
+            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
+          </div>
+          <div className="menu-item">
+            <h2 className="title">[Food Title]</h2>
+            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
+          </div>
+          <div className="menu-item">
+            <h2 className="title">[Food Title]</h2>
+            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
+          </div>
+          <div className="menu-item">
+            <h2 className="title">[Food Title]</h2>
+            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
+          </div>
+          <div className="menu-item">
+            <h2 className="title">[Food Title]</h2>
+            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
+          </div>
+          <div className="menu-item">
+            <h2 className="title">[Food Title]</h2>
+            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
+          </div>
         </div>
       </div>
       <div className="breakfast-menu section">
-        <h2>Breakfast</h2>
-        <div className="menu-item">
-          <h2 className="title">Hamburger</h2>
-          <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, velit! Facilis odio delectus, architecto, obcaecati ut labore nostrum magni incidunt minima modi dolorum, alias libero rem perferendis a distinctio harum.</p>
-        </div>
-        <div className="menu-item">
-          <h2 className="title">[Food Title]</h2>
-          <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
-        </div>
+        <div className="menu-box">
+          <h1>Breakfast</h1>
+          <div className="menu-item">
+            <h2 className="title">Hamburger</h2>
+            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, velit! Facilis odio delectus, architecto, obcaecati ut labore nostrum magni incidunt minima modi dolorum, alias libero rem perferendis a distinctio harum.</p>
+          </div>
+          <div className="menu-item">
+            <h2 className="title">[Food Title]</h2>
+            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
+          </div>
 
-        <div className="menu-item">
-          <h2 className="title">[Food Title]</h2>
-          <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
+          <div className="menu-item">
+            <h2 className="title">[Food Title]</h2>
+            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
+          </div>
+          <div className="menu-item">
+            <h2 className="title">[Food Title]</h2>
+            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
+          </div>
         </div>
-        <div className="menu-item">
-          <h2 className="title">[Food Title]</h2>
-          <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur deleniti adipisci doloremque cum excepturi dignissimos dicta aperiam deserunt. Aliquid voluptates error sint libero magnam aperiam harum ipsum quibusdam dolor neque?</p>
-        </div>
-
       </div>
     </div>
   );

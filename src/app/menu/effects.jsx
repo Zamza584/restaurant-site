@@ -7,7 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 export default function Effects() {
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger)
-
+        
         gsap.fromTo(".menu-header", {
             y: -30,
             opacity: 0.1,

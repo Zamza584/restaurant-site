@@ -7,6 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 export default function Animations() {
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger)
+        const sections = gsap.utils.toArray(".section")
 
         gsap.fromTo(".hero-image", {
             y: -30,
@@ -17,7 +18,22 @@ export default function Animations() {
             y: 0,
             opacity: 1
         })
-    
-    })
+        
+        sections.forEach(section => {
+            gsap.fromTo(section, {
+                y:-100, 
+                opacity: 0.5,
+            }, {
+                scrollTrigger: {
+                    trigger: section,
+                    toggleActions: "restart none none none"
+                },
+                y: 0,
+                duration: 2,
+                ease: "expo.easeOut",
+                opacity: 1
+            })
+        })
 
+    })
 }

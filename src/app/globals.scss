@@ -39,6 +39,7 @@ nav {
   flex-direction: column;
   padding-top: 4rem;
   letter-spacing: 0.5rem;
+  z-index: 2;
   display: none;
   li {
     display: block;
@@ -93,7 +94,7 @@ nav {
   & > * {
     align-self: center;
   }
-  .button { 
+  .button {
     margin-top: 1rem;
     padding: 1rem 2rem;
     text-decoration: none;
@@ -102,22 +103,15 @@ nav {
     background-color: #ee5252c5;
     color: #ffffff;
     transition: background-color 500ms;
-
-
   }
-  .button:hover { 
+  .button:hover {
     background-color: #f8973d;
-
   }
 }
 
-
 .hero-image {
-  z-index: -4 ;
-  height: 100vh;
   position: relative;
   height: 100vh;
-  z-index: -4;
   display: block;
   img {
     object-fit: cover;
@@ -151,25 +145,36 @@ nav {
 //Home Page
 .home-section {
   height: fit-content;
-  
+  position: relative;
+  background-color: #ffa857;
+
   .about-us {
     height: 700px;
-    background-color: #ffa857;
+    img {
+      margin-top: 2rem;
+      width: 80%;
+      height: fit-content;
+    }
   }
   .menu {
     height: 700px;
-    background-color: #ac3a3a;
+    color: rgb(0, 0, 0);
+    background-color: #d66d6d;
   }
 }
 
 //Menu Page
-
 
 .menu-container {
   display: flex;
   flex-direction: column;
   position: relative;
   z-index: -1;
+  background-color: black;
+  .menu-box {
+    border: 1px solid black;
+    padding: 1rem;
+  }
 
   .menu-header::before {
     content: "";
@@ -185,16 +190,21 @@ nav {
 
 .breakfast-menu,
 .main-menu {
-  border: 10px solid rgb(155, 23, 23, 0.2);
-  margin: 1rem;
-  padding: 1rem 2rem;
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  background-color: #d66d6d;
+  padding: 1rem 1rem;
 }
 
 //About Page
 
 .about {
+  background-color: #f5d3b3;
   height: 100vh;
-  
 }
 
 footer {
