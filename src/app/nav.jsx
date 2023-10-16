@@ -8,9 +8,16 @@ import React, { useState, useEffect } from "react";
 export default function Nav() {
     const [toggle, setToggle] = useState(false);
 
-    const handleClick = () => setToggle(!toggle);
+    const handleClick = async () => await setToggle(!toggle);
 
     useEffect(() => {
+        const body = document.querySelector("body");
+        if (toggle === true) {
+            body.style.overflowY = "hidden"
+        } else {
+            body.style.overflowY = "scroll"
+        }
+
         gsap.fromTo(
             ".show",
             {
@@ -83,12 +90,12 @@ export default function Nav() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="" className="nav-item">
+                    <Link href="/orders" className="nav-item">
                         Order Now
                     </Link>
                 </li>
                 <li>
-                    <Link href="" className="nav-item">
+                    <Link href="/location" className="nav-item">
                         Location
                     </Link>
                 </li>
