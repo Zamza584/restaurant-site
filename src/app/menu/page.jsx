@@ -2,10 +2,13 @@ import Image from "next/image";
 import menuImage from '../images/menu-image-sm.jpg';
 import Effects from './effects';
 
+export const metadata = {
+  title: 'Menu',
+}
+
 export default function Menu() {
   return (
     <div className="menu-container">
-      <title>Menu</title>
       <Effects />
       <div className="menu-header hero-image">
         <Image src={menuImage} alt="menu main image" />

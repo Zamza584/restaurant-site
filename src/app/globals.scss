@@ -44,7 +44,7 @@ nav {
   li {
     display: block;
     width: 70%;
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
   a:hover {
     color: rgb(172, 41, 2);
@@ -186,8 +186,6 @@ nav {
     border: 1px solid black;
     padding: 1rem;
   }
-
-
 }
 
 .breakfast-menu,
@@ -226,6 +224,42 @@ footer {
     }
     a:hover {
       color: #68442c;
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  .ham-icon {
+    display: none;
+  }
+
+  .nav-items { 
+    margin: 0 3rem 0 10rem;
+    background: none;
+    position: relative;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    padding-top: 0;
+    letter-spacing: 0.2rem;
+    z-index: 2;
+    li {
+      display: block;
+      width: 70%;
+      padding-top: 0;
+    }
+  }
+  .section {
+    flex-wrap: wrap;
+    height: 700px;
+    img {
+      margin-top: 2rem;
+      width: 30px;
+      display: block;
+      height: fit-content;
     }
   }
 }

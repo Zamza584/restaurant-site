@@ -4,14 +4,13 @@ import { BsFacebook, BsInstagram } from "react-icons/bs";
 import Nav from './nav';
 import Link from "next/link";
 
+export const metadata = {
+  title: 'Home',
+}
 
 export default function RootLayout({ children }) {
-
   return (
     <html>
-      <head>
-        <title>Home</title>
-      </head>
       <body>
         <header>
           <Nav />
