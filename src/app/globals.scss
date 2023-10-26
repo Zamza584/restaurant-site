@@ -7,6 +7,16 @@
   font-family: "Gabarito", cursive;
 }
 
+body {
+  background-color: #ffa857;
+}
+
+nav,
+section {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 ul li {
   list-style: none;
 }
@@ -96,6 +106,7 @@ nav {
     align-self: center;
   }
   .button {
+    width: 9.5rem;
     margin-top: 1rem;
     padding: 1rem 2rem;
     text-decoration: none;
@@ -151,11 +162,6 @@ nav {
 
   .about-us {
     height: 700px;
-    img {
-      margin-top: 2rem;
-      width: 80%;
-      height: fit-content;
-    }
   }
   .menu {
     height: 700px;
@@ -233,8 +239,8 @@ footer {
     display: none;
   }
 
-  .nav-items { 
-    margin: 0 3rem 0 10rem;
+  .nav-items {
+    margin: 0 5rem 0 5rem;
     background: none;
     position: relative;
     display: flex;
@@ -246,20 +252,61 @@ footer {
     padding-top: 0;
     letter-spacing: 0.2rem;
     z-index: 2;
+    gap: 2rem;
     li {
       display: block;
       width: 70%;
       padding-top: 0;
+      a { 
+        display: block;
+        width: fit-content;
+        margin: auto;
+      }
     }
   }
-  .section {
-    flex-wrap: wrap;
-    height: 700px;
+
+  .section { 
+    p {
+      font-size: 1.2rem;
+    }
+    h1 { 
+      font-size: 2rem; 
+
+    }
+  }
+
+  .about-us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3rem;
+    h1 {
+      font-size: 2rem;
+      margin: auto;
+      grid-column: 1/3;
+    }
+    p {
+      font-size: 1.2rem;
+      width: 50%;
+      grid-row: 2/3;
+      justify-self: flex-end;
+      grid-column: 1 / 2;
+    }
     img {
-      margin-top: 2rem;
-      width: 30px;
-      display: block;
-      height: fit-content;
+      width: 100%;
+      max-width: 300px;
+      max-height: 300px;
+      grid-row: 2/3;
+      grid-column: 2/3;
+    }
+    div {
+      grid-column: 2/3;
+    }
+  }
+  .menu { 
+    justify-content: space-evenly;
+    p { 
+      width: 50%;
     }
   }
 }

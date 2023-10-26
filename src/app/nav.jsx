@@ -10,7 +10,7 @@ import React, { useState, useEffect } from "react";
 export default function Nav() {
     const [toggle, setToggle] = useState(false);
 
-    const handleClick = () => setToggle(!toggle);
+    const handleClick = () => window.innerWidth < 700 ? setToggle(!toggle) : setToggle(false);
 
     useEffect(() => {
         let mm = gsap.matchMedia();
@@ -20,7 +20,7 @@ export default function Nav() {
                 {
                     x: 0,
                 },
-                {
+                {   
                     duration: 1,
                     x: 0,
                     display: "flex",
@@ -100,6 +100,7 @@ export default function Nav() {
         const body = document.querySelector("body");
         if (toggle === true && window.innerWidth < 700) {
             body.style.overflowY = "hidden"
+            
         } else {
             body.style.overflowY = "scroll"
         }
