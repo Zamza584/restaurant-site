@@ -162,6 +162,10 @@ nav {
 
   .about-us {
     height: 700px;
+    > img {
+      width: 100%;
+      height: fit-content;
+    }
   }
   .menu {
     height: 700px;
@@ -257,7 +261,7 @@ footer {
       display: block;
       width: 70%;
       padding-top: 0;
-      a { 
+      a {
         display: block;
         width: fit-content;
         margin: auto;
@@ -265,13 +269,12 @@ footer {
     }
   }
 
-  .section { 
+  .section {
     p {
       font-size: 1.2rem;
     }
-    h1 { 
-      font-size: 2rem; 
-
+    h1 {
+      font-size: 2rem;
     }
   }
 
@@ -303,9 +306,9 @@ footer {
       grid-column: 2/3;
     }
   }
-  .menu { 
+  .menu {
     justify-content: space-evenly;
-    p { 
+    p {
       width: 50%;
     }
   }

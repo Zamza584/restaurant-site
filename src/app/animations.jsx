@@ -26,8 +26,7 @@ export default function Animations() {
             }, {
                 scrollTrigger: {
                     start: "top center",
-                    end: "+=400px",
-                    toggleActions: "restart pause reverse pause",
+                    toggleActions: "restart pause none pause",
                     trigger: section,
                 },
                 y: 0,
