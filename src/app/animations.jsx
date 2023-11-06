@@ -25,7 +25,6 @@ export default function Animations() {
                 opacity: 0.5,
             }, {
                 scrollTrigger: {
-                    start: "top center",
                     toggleActions: "restart pause none pause",
                     trigger: section,
                 },

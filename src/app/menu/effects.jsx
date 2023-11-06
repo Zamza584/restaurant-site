@@ -26,12 +26,10 @@ export default function Effects() {
             }, {
                 scrollTrigger: {
                     trigger: section, 
-                    toggleActions: "restart pause reverse pause",
+                    toggleActions: "restart none none none",
                     start: "top bottom",
-                    end: "bottom bottom",
-                    scrub: true,
                 },
-
+                duration: 1.2,
                 ease: "expo.easeOut",
                 x: 0,
                 opacity: 1
